@@ -11,7 +11,7 @@ const calcoloSomma = function () {
 };
 
 while (calcoloSomma() < 50) {
-    let numeroInserito = parseFloat(prompt("Inserisci un numero:"));
+    let numeroInserito = Number(prompt("Inserisci un numero:"));
 
     // Validazione dell'input
     if (!isNaN(numeroInserito)) {
